@@ -1,0 +1,103 @@
+.app__add-workout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  gap: 60px;
+  background-color: #4b4453;
+  color: white;
+}
+
+.app__add-workout form {
+  display: flex;
+  flex-direction: column;
+  background-color: #b0a8b9;
+  border-radius: 10px;
+  gap: 20px;
+  min-width: 50%;
+  padding: 50px;
+}
+
+#first-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.app__add-workout form label {
+  text-align: left;
+  font-size: 20px;
+  align-self: center;
+}
+
+.app__add-workout form input {
+  flex: 1;
+  outline: none;
+  padding: 10px;
+  font-size: 16px;
+  background-color: transparent;
+  border: 3px solid white;
+}
+
+.app__add-workout form input::placeholder {
+  font-size: 16px;
+  color: white;
+}
+
+.app__add-workout form button {
+  background-color: #845ec2;
+  color: white;
+  font-size: 14px;
+  outline: none;
+  border: none;
+  padding: 2px 20px;
+  cursor: pointer;
+  height: 50px;
+  width: 130px;
+  padding: 2px 20px;
+}
+
+#second-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.app__add-workout svg {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+@media screen and (max-width: 1050px) {
+  #second-form {
+    flex-direction: column;
+  }
+  .app__add-workout form {
+    max-width: 500px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .app__add-workout form {
+    padding: 40px 20px;
+  }
+
+  #first-form {
+    justify-content: center;
+    max-width: 300px;
+  }
+
+  #first-form button {
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .app__add-workout h1 {
+    margin-top: 60px;
+    text-align: center;
+  }
+}

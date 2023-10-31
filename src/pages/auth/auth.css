@@ -1,0 +1,24 @@
+.app__auth {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  height: 100%;
+  margin: 0;
+  background-color: #222831;
+  color: white;
+}
+.app__auth h1 {
+  font-size: 42px;
+  margin: 0;
+}
+
+.app__auth button {
+  padding: 15px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #f96d00;
+  color: white;
+  border: none;
+}
