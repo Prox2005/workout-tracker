@@ -47,6 +47,7 @@
   gap: 50px;
 }
 .app__workout-tracker__workouts > div:first-child h2 {
+  text-align: center;
   font-size: 26px;
   margin: 0;
 }

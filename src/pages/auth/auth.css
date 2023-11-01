@@ -10,6 +10,7 @@
   color: white;
 }
 .app__auth h1 {
+  text-align: center;
   font-size: 42px;
   margin: 0;
 }
